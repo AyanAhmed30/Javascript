@@ -680,29 +680,29 @@
 // console.log(total)
 
 //excersice add prices in shopping cart using reduce
-let shoppingCart=[
-    {
-        book:"eng",
-        price:100
-    },
-    {
-        book:"urdu",
-        price:200
-    },
-    {
-        book:"math",
-        price:300
-    },
-]
+// let shoppingCart=[
+//     {
+//         book:"eng",
+//         price:100
+//     },
+//     {
+//         book:"urdu",
+//         price:200
+//     },
+//     {
+//         book:"math",
+//         price:300
+//     },
+// ]
 
-let initial =[]
-let total= shoppingCart.forEach((item)=>{
-   initial.push(item.price)
+// let initial =[]
+// let total= shoppingCart.forEach((item)=>{
+//    initial.push(item.price)
 
-})
-let ans = initial
-console.log(ans)
-let total_price=ans.reduce((acc,currval)=>{
-    return acc+currval
-},0)
-console.log(total_price)
+// })
+// let ans = initial
+// console.log(ans)
+// let total_price=ans.reduce((acc,currval)=>{
+//     return acc+currval
+// },0)
+// console.log(total_price)
